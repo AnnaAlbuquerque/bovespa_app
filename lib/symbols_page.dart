@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:bovespa_app/utils/symbols_map.dart';
+import 'package:bovespa_app/company_page.dart';
 
 class SymbolsPage extends StatefulWidget {
   SymbolsPage({Key key}) : super(key: key);
@@ -22,6 +23,7 @@ class _SymbolsPageState extends State<SymbolsPage> {
     symbolList.addAll(allSymbols);    
   }
 
+  //edits list according to string on searchbar
   void _filterSearchResults (String query){
     if(query.isNotEmpty){
       List<String> auxListData = List<String>();
@@ -87,13 +89,19 @@ class _SymbolsPageState extends State<SymbolsPage> {
 Widget _symbolsList(List<String>list){
   return Scrollbar(
       child: ListView.separated(
-      itemCount: list.length,
-      itemBuilder: (context,index){
-        return ListTile(
-          title:Text(list[index]),
-        );
-      }, 
-      separatorBuilder: (BuildContext context, int index) => Divider(),
-    ),
+        itemCount: list.length,
+        itemBuilder: (context,index){
+          return ListTile(
+            title:Text(list[index]),
+            onTap: (){
+              Navigator.push(
+                context, 
+                MaterialPageRoute(builder: (context) => CompanyPage(symbol:list[index])),
+              );
+            },
+          );
+        }, 
+        separatorBuilder: (BuildContext context, int index) => Divider(),
+      ),
   );
 }
