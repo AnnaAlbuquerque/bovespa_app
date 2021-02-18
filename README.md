@@ -21,3 +21,4 @@ And the second screen is composed by all symbol's informations that we receive f
 
 - This application was built during the course "Desenvolvimento de Sistemas para Dispositivos Móveis" (Mobile Software Development) offered at Universidade Federal do Rio Grande do Norte (Federal University of Rio Grande do Norte - UFRN) and taught by Itamir Filho.
 - It uses [HG Brasil](https://hgbrasil.com/) API, HG Finance.
+- [Figma project](https://www.figma.com/file/LqlQWkEGdrDGtjRucnPiYf/Bovespa_App?node-id=0%3A1) 
