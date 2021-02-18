@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'package:bovespa_app/utils/symbols_map.dart';
 import 'package:bovespa_app/company_page.dart';
 
