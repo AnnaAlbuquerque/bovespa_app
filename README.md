@@ -8,19 +8,14 @@ This project is composed by two screens.
 
 <img src="./assets/img/InitialScreen.png" height="500">
 
-</br>First one, has a list of symbols that you can consult. 
-</br>It's also possible to search for a specific symbol as shown in the image bellow.
-
+First one, has a list of symbols available at [BOVESPA](https://console.hgbrasil.com/documentation/finance/symbols).
+It's also possible to search for a specific symbol as shown in the image bellow.
 
 <img src="./assets/img/Search.png" height="500">
 
-
-</br> And the second screen is composed by all symbol informations that we receive from the API.
-
+</br> And the second screen is composed by all symbol's informations that we receive from the API.
 
 <img src="./assets/img/CompanyScreen.png" height="500">
-
-
 
 ## Extra Informations
 
