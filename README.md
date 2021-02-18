@@ -1,16 +1,27 @@
-# bovespa_app
+# BOVESPA APP
 
-A new Flutter project.
+A flutter project that consults stocks prices on BOVESPA.
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
+This project is composed by two screens.
+</br>
+</br>
+<img src="./assets/img/InitialScreen.png" height="500">
+</br>First one, has a list of symbols that you can consult. 
+</br>It's also possible to search for a specific symbol as shown in the image bellow.
+</br>
+</br>
+<img src="./assets/img/Search.png" height="500">
 
-A few resources to get you started if this is your first Flutter project:
+</br> And the second screen is composed by all symbol informations that we receive from the API.
+</br>
+</br>
+<img src="./assets/img/CompanyScreen.png" height="500">
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Extra Informations
+
+- This application was built during the course "Desenvolvimento de Sistemas para Dispositivos Móveis" () offered at Universidade Federal do Rio Grande do Norte (Federal University of Rio Grande do Norte - UFRN) and taught by Itamir Filho.
+- It uses [HG Brasil](https://hgbrasil.com/) API, HG Finance.
