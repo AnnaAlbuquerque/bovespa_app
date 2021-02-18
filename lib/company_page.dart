@@ -100,7 +100,7 @@ class _CompanyPageState extends State<CompanyPage> {
           Padding(
             padding: const EdgeInsets.only(top: 20.0, left:25.0),
             child: Text(
-              company.name,
+              company.name ?? "",
               style: TextStyle(
                 color: Theme.of(context).primaryColor,
                 fontSize: 25,
@@ -111,7 +111,7 @@ class _CompanyPageState extends State<CompanyPage> {
           Padding(
             padding: const EdgeInsets.only(left:25.0),
             child: Text(
-              company.companyName,
+              company.companyName ?? "",
               style: TextStyle(
                 color: Colors.black.withOpacity(0.5),
                 fontSize: 12,
@@ -146,7 +146,7 @@ class _CompanyPageState extends State<CompanyPage> {
 
                   Expanded(
                     child: Padding(
-                      padding: const EdgeInsets.only(top: 15),
+                      padding: const EdgeInsets.only(top: 15, bottom:20),
                       child: Container(
                         width: MediaQuery.of(context).size.width * 0.9,
                         decoration: BoxDecoration(
